@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Message App</title>
+  </head>
+  <body>
+    <div style="text-align: center; margin-top: 50px;">
+      <h1>Angular Message App</h1>
+
+      <label>Message to Display:</label><br />
+
+      <input type="text" [(ngModel)]="message" /><br /><br />
+
+      <button (click)="displayMessage()">Display Message</button>
+
+      <h2>{{ displayText }}</h2>
+    </div>
+  </body>
+</html>
